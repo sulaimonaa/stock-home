@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stocks fetches stock lists and displays them 1`] = `
+<DocumentFragment>
+  <div
+    class="nav"
+  >
+    <div
+      class="container navbar"
+    >
+      <div
+        class="home-icon"
+      >
+        <img
+          alt="previous icon"
+          src="mocked-file-url"
+        />
+      </div>
+      <div
+        class="home-icon"
+      >
+        <a
+          aria-current="page"
+          class="active"
+          href="/"
+        >
+          <img
+            alt="home icon"
+            src="mocked-file-url"
+          />
+        </a>
+      </div>
+      <div
+        class="home-icon"
+      >
+        <a
+          class=""
+          href="/stocks"
+        >
+          <img
+            alt="home icon"
+            src="mocked-file-url"
+          />
+        </a>
+      </div>
+      <div
+        class="menu-icon"
+      >
+        <a
+          class=""
+          href="/about"
+        >
+          <img
+            alt="menu icon"
+            src="mocked-file-url"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    class="stockWrap"
+  >
+    <h3>
+      Stock Market
+    </h3>
+    <table
+      class="table"
+    >
+      <thead>
+        <tr>
+          <th>
+            Symbol
+          </th>
+          <th>
+            Name
+          </th>
+          <th>
+            Exchange
+          </th>
+          <th>
+            Price
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Apple Inc.
+          </td>
+          <td>
+            AAPL
+          </td>
+          <td>
+            NASDAQ
+          </td>
+          <td>
+            150
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</DocumentFragment>
+`;
