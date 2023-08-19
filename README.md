@@ -1,7 +1,5 @@
 # Stock Market App with React
 
-![Project Logo](link-to-your-logo.png)
-
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -14,9 +12,7 @@
 
 ## Introduction
 
-The Stock Market App is a web application built with React that allows users to explore and search for information about various stocks, financial statements, and related market data. Users can search for specific stocks, view detailed financial information, and keep track of their favorite stocks' performance.
-
-![App Screenshot](screenshot.png)
+The Stock Market (Financial Home) App is a web application built with React that allows users to explore and search for information about various stocks, financial statements, and related market data. Users can search for specific stores, view detailed financial information, and keep track of their favorite stocks' performance.
 
 ## Features
 
@@ -47,8 +43,8 @@ Open your web browser and visit http://localhost:3000 to view the app.
 ## Usage
 1. Search for statements by clicking on the list of financial statements.
 2. Filter stocks using the search bar
-3. Click on stock company to view details
-4. Open stock market table from the home page or using the icon on the nav bar
+3. Click on a stock company to view details
+4. Open the stock market table from the home page or using the icon on the nav bar
 
 ## Technologies Used
     - React
@@ -57,6 +53,9 @@ Open your web browser and visit http://localhost:3000 to view the app.
     - CSS Modules for styling
     - Third-party APIs for fetching stock data (e.g., free stock market - https://site.financialmodelingprep.com/developer/docs/)
 
+## Live Demo
+
+You can access the project by clicking on this link <a href="https://stock-home.onrender.com/">View Application</a>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -75,7 +74,7 @@ Contributions are welcome! If you'd like to contribute to the project, please fo
 
 > I would like to thank Microverse for inspiring this project
 > Fonts: [Google Fonts](https://fonts.google.com/)
-> Nelson Sakwa on behance for the UI layout
+> Nelson Sakwa on Behance for the UI layout
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
