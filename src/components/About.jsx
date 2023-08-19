@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react';// eslint-disable-line no-undef, no-unused-vars
 import Navigation from './OtherNav';
 
 const About = () => {

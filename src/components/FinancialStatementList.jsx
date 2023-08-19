@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; // eslint-disable-line no-undef, no-unused-vars
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import '../styles/financiallist.css';

@@ -1,27 +1,27 @@
 .wrap {
-    padding: 10px;
-    height: 100vh;
-    overflow: scroll;
+  padding: 10px;
+  height: 100vh;
+  overflow: scroll;
 }
 
 .list-h1 {
-    color: #fff;
-    font-size: 22px;
-    text-transform: capitalize;
+  color: #fff;
+  font-size: 22px;
+  text-transform: capitalize;
 }
 
 .search {
-    width: 95%;
-    height: 40px;
-    border-radius: 10px;
-    border: none;
-    padding: 0 8px;
+  width: 95%;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  padding: 0 8px;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 .financial-list {
-    color: #fff;
-  }
+  color: #fff;
+}

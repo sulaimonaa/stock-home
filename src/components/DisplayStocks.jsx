@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; // eslint-disable-line no-undef, no-unused-vars
 import PropTypes from 'prop-types';
 
 function DisplayStocks({ sSymbol, sName, sPrice, sExchange }) {

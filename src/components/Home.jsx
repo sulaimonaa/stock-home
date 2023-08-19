@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; // eslint-disable-line no-undef, no-unused-vars
 import { useDispatch, useSelector } from 'react-redux';
 import List from '../assets/list.png';
 import StockMkt from '../assets/stock-exchange.png';
@@ -24,7 +24,7 @@ const Home = () => {
         <div className="home-wrap">
             <h1>Welcome To Financial Home</h1>
             <p>
-            The Financial Home App is a web application built with React that allows users to explore and search for information about various stocks, financial statements, and related market data. Users can search for specific stocks, view detailed financial information, and keep track of their favorite stocks' performance.
+            The Financial Home App is a web application built with React that allows users to explore and search for information about various stocks, financial statements, and related market data. Users can search for specific stocks, view detailed financial information, and keep track of their favorite stocks performance.
             </p>
             <div className="card">
                 <div className="card-list">

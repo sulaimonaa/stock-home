@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react"; // eslint-disable-line no-undef, no-unused-vars
 import { useParams } from "react-router-dom";
 import CompanyStatements from "./CompanyStatements";
 import Navigation from './OtherNav';

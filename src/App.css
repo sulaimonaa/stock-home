@@ -36,7 +36,8 @@
   color: #fff;
 }
 
-.menu-icon img, .home-icon img {
+.menu-icon img,
+.home-icon img {
   width: 40px;
 }
 
@@ -56,7 +57,6 @@
   font-size: 22px;
   color: #fff;
 }
-
 
 .home-wrap h3,
 .home-wrap h5 {

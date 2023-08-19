@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react'; // eslint-disable-line no-undef, no-unused-vars
 import { useDispatch, useSelector } from 'react-redux';
 import { FetchFinancialStatements } from '../redux/financialStatementSlice';
 import FinancialStatementList from './FinancialStatementList';

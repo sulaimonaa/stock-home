@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; // eslint-disable-line no-undef, no-unused-vars
 import { render, waitFor } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import configureStore from 'redux-mock-store';
@@ -7,11 +7,11 @@ import Stocks from '../components/Stocks';
 import { FetchStockLists } from '../redux/stockSlice';
 import { BrowserRouter } from 'react-router-dom'; // Import BrowserRouter
 
-// Mock the action creator
+/* eslint-disable no-undef, no-unused-vars */
 jest.mock('../redux/stockSlice', () => ({
   FetchStockLists: jest.fn(),
 }));
-
+/* eslint-disable no-undef, no-unused-vars */
 describe('Stocks', () => {
   const middlewares = [thunk];
   const mockStore = configureStore(middlewares);

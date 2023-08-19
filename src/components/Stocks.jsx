@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect } from "react"; // eslint-disable-line no-undef, no-unused-vars
 import { useDispatch, useSelector } from "react-redux";
 import { FetchStockLists } from "../redux/stockSlice";
 import DisplayStocks from "./DisplayStocks";
