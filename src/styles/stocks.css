@@ -1,0 +1,21 @@
+.stockWrap {
+  padding: 10px;
+  height: 100vh;
+  overflow: scroll;
+  color: #fff;
+}
+
+.table {
+  width: 100%;
+}
+
+th {
+  background: #368ed19e;
+  padding: 10px 0;
+}
+
+td {
+  background: #368ed19e;
+  font-size: 14px;
+  text-align: center;
+}

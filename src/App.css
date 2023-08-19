@@ -2,7 +2,116 @@
 
 #root {
   max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
-  padding: 2rem;
+  background: linear-gradient(45deg, #2871ac, #41a5ee);
+}
+
+.wrap {
+  padding: 10px;
+  height: 100vh;
+  color: #fff;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: rgb(40, 113, 172);
+  position: relative;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.menu-icon img,
+.home-icon img {
+  width: 40px;
+}
+
+.close-icon {
+  text-align: right;
+}
+
+.close-icon img {
+  width: 20px;
+}
+
+.home-wrap {
+  padding: 0 10px;
+}
+
+.home-wrap h1 {
+  font-size: 22px;
+  color: #fff;
+}
+
+.home-wrap h3,
+.home-wrap h5 {
+  color: #fff;
+  margin: 0;
+}
+
+.home-wrap p {
+  color: #fff;
+}
+
+.card {
+  width: 100%;
+  padding: 20px 0;
+  display: block;
+}
+
+.card-list {
+  width: 60%;
+  padding: 10px;
+  background: #368ed19e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #368ed1;
+  margin: 10px auto;
+}
+
+.card-list img {
+  width: 50%;
+}
+
+.card-list h3 {
+  text-transform: uppercase;
   text-align: center;
+  font-size: 16px;
+}
+
+.cList {
+  background: #fff;
+  padding: 3px 10px;
+  border-radius: 25px;
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .card-list {
+    width: 30%;
+    margin: 0;
+  }
 }

@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FinancialStatement fetches financial statements and displays them 1`] = `
+<DocumentFragment>
+  <div
+    class="nav"
+  >
+    <div
+      class="container navbar"
+    >
+      <div
+        class="home-icon"
+      >
+        <img
+          alt="previous icon"
+          src="mocked-file-url"
+        />
+      </div>
+      <div
+        class="home-icon"
+      >
+        <a
+          aria-current="page"
+          class="active"
+          href="/"
+        >
+          <img
+            alt="home icon"
+            src="mocked-file-url"
+          />
+        </a>
+      </div>
+      <div
+        class="home-icon"
+      >
+        <a
+          class=""
+          href="/stocks"
+        >
+          <img
+            alt="home icon"
+            src="mocked-file-url"
+          />
+        </a>
+      </div>
+      <div
+        class="menu-icon"
+      >
+        <a
+          class=""
+          href="/about"
+        >
+          <img
+            alt="menu icon"
+            src="mocked-file-url"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    class="wrap"
+  >
+    <h1
+      class="list-h1"
+    >
+      Financial statements list
+    </h1>
+    <input
+      class="search"
+      placeholder="Search Company by symbol"
+      value=""
+    />
+    <ul>
+      <li
+        data-testid="financial-statement-list"
+        id="1"
+      >
+        <a
+          class="financial-list"
+          href="/company/AAP"
+        >
+          AAP
+        </a>
+      </li>
+      <li
+        data-testid="financial-statement-list"
+        id="2"
+      >
+        <a
+          class="financial-list"
+          href="/company/AAPL"
+        >
+          AAPL
+        </a>
+      </li>
+      <li
+        data-testid="financial-statement-list"
+        id="3"
+      >
+        <a
+          class="financial-list"
+          href="/company/CAC"
+        >
+          CAC
+        </a>
+      </li>
+      <li
+        data-testid="financial-statement-list"
+        id="4"
+      >
+        <a
+          class="financial-list"
+          href="/company/EEC"
+        >
+          EEC
+        </a>
+      </li>
+      <li
+        data-testid="financial-statement-list"
+        id="5"
+      >
+        <a
+          class="financial-list"
+          href="/company/ACA"
+        >
+          ACA
+        </a>
+      </li>
+      <li
+        data-testid="financial-statement-list"
+        id="6"
+      >
+        <a
+          class="financial-list"
+          href="/company/ACP"
+        >
+          ACP
+        </a>
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`FinancialStatement filters financial statements based on search term 1`] = `
+<li
+  data-testid="financial-statement-list"
+  id="1"
+>
+  <a
+    class="financial-list"
+    href="/company/AAPL"
+  >
+    AAPL
+  </a>
+</li>
+`;
